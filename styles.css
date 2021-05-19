@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+}
+
+.container-div{
+  display: flex;
+  background-color: #ffe6e6;
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.left-col{
+  flex-direction: column;
+  width: 30%;
+  margin: 0;
+  padding: 10px;
+  background-color: red;
+  text-align: center;
+}
+
+.right-col{
+  width: 70%;
+  margin: 0;
+  background-color: blue;
+}
+
+.picture{
+  width: 80%;
+  margin: 10px;
+}
+
+.contact-header-box{
+  margin: 10px;
+  background-color: green;
+  text-align: left;
+  padding: 10px;
+}
+
+.contact-header{
+  margin: 0;
+}
+
+.contact-info-box{
+  padding: 10px;
+  text-align: left;
+}
+
+.contact-info-labels{
+  font-size: 1.2em;
+}
