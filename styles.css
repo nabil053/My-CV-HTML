@@ -2,11 +2,15 @@ body{
   margin: 0;
 }
 
+a{
+  color: inherit;
+}
+
 .container-div{
   display: flex;
   background-color: #ffe6e6;
   width: 60%;
-  height: 1000px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -15,7 +19,8 @@ body{
   width: 33%;
   margin: 0;
   padding: 10px;
-  background-color: red;
+  color: #FEE4D2;
+  background-color: #484D60;
   text-align: center;
 }
 
@@ -24,7 +29,6 @@ body{
   width: 67%;
   margin: 0;
   padding: 10px;
-  background-color: blue;
 }
 
 .picture{
@@ -34,13 +38,19 @@ body{
 
 .header-box{
   margin: 10px;
-  background-color: green;
+  color: #484D60;
+  background-color: #FDFEF9;
   text-align: left;
   padding: 10px;
 }
 
 .header-caption{
   margin: 0;
+}
+
+.header-box-contact{
+  color: #484D60;
+  background-color: #FEE4D2;
 }
 
 .info-box{
