@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 a{
@@ -16,7 +17,7 @@ a{
 
 .left-col{
   flex-direction: column;
-  width: 33%;
+  flex-grow: 1;
   margin: 0;
   padding: 10px;
   color: #FEE4D2;
@@ -26,7 +27,7 @@ a{
 
 .right-col{
   flex-direction: column;
-  width: 67%;
+  flex-grow: 2;
   margin: 0;
   padding: 10px;
 }
@@ -44,13 +45,13 @@ a{
   padding: 10px;
 }
 
-.header-caption{
-  margin: 0;
-}
-
 .header-box-contact{
   color: #484D60;
   background-color: #FEE4D2;
+}
+
+.header-caption{
+  margin: 0;
 }
 
 .info-box{
@@ -60,4 +61,35 @@ a{
 
 .info-labels{
   font-size: 1.1em;
+}
+
+@media (max-width: 1000px) {
+  .container-div{
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .container-div{
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-div{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .left-col{
+    width: 100%;
+  }
+
+  .right-col{
+    width: 100%;
+  }
+
+  .header-box{
+    margin-right: 20px;
+  }
 }
